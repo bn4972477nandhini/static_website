@@ -1,0 +1,117 @@
+body {
+  background-image: url(/assets/nan2.jpg);
+  margin: 0;
+  font-family: "Arial", sans-serif;
+  background-color: #000;
+  color: white;
+}
+.header {
+  background-color: lightgoldenrodyellow;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px black;
+}
+
+.logo {
+  width: 160px;
+  height: auto;
+  cursor: pointer;
+}
+
+.container a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.container a:hover {
+  color: red;
+}
+
+.content {
+  padding: 50px;
+  text-align: center;
+}
+
+.content h2 {
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+}
+
+.card-content {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.content a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: 16px;
+  transition: color 0.3s ease;
+}
+
+.head {
+  background: linear-gradient(135deg, #1c1c3c, #1a0d1e);
+  border-radius: 20px;
+  padding: 20px;
+  flex: 1 1 200px;
+  max-width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.head:hover {
+  transform: scale(1.03);
+}
+
+.head h3 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+.head p {
+  font-size: 0.95rem;
+  color: #ccc;
+  flex-grow: 1;
+}
+
+.head img {
+  width: 40px;
+  margin-top: 20px;
+  align-self: flex-end;
+}
+
+footer {
+  background-color: lightgoldenrodyellow;
+  display: flex;
+  padding: 15px 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px black;
+  margin-top: 355px;
+  font-weight: bold;
+  color: black;
+}
+a {
+  text-decoration: none;
+  color: black;
+  font: bold;
+}
+.foot {
+  display: flex;
+  justify-content: center;
+}
+
+.footmenu > a {
+  padding: 40px;
+}

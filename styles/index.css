@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+  color: black;
+  font: bold;
+}
+
+body {
+  background-image: url(/assets/nan2.jpg);
+  background-size: cover;
+  background-position: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+  min-height: 100vh;
+  padding: 20px;
+  position: relative;
+  
+}
+
+.header {
+  background-color: lightgoldenrodyellow;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px black;
+}
+
+.logo {
+  width: 160px;
+  height: auto;
+  cursor: pointer;
+}
+
+.container a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.container a:hover {
+  color: red;
+}
+
+.header-content {
+  margin-top: 120px;
+  text-align: center;
+}
+
+.header-content h1 {
+  font-size: 60px;
+  line-height: 1.2;
+  font-weight: 800;
+  text-shadow: 2px 2px 4px black;
+  margin-bottom: 10px;
+}
+
+.header-content h3 {
+  font-size: 24px;
+  margin-top: 10px;
+  color: white;
+}
+
+.header-content p {
+  font-size: 18px;
+  margin: 20px 0;
+  color: white;
+}
+
+.email-signup {
+  background: black;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 20%;
+  margin: 0 auto;
+}
+.button {
+  width: 700px;
+  height: 40px;
+}
+.buttons {
+  width: 200px;
+  height: 40px;
+}
+.header-2 > .containers {
+  margin-top: 180px;
+}
+
+footer {
+  background-color: lightgoldenrodyellow;
+  display: flex;
+  padding: 20px 10px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px black;
+  margin-top: 400px;
+  font-weight: bold;
+  color: black;
+}
+.foot {
+  display: flex;
+  justify-content: center;
+}
+.footmenu > a {
+  padding: 50px;
+}

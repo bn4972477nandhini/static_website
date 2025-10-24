@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+body {
+  background-image: url(/assets/nan2.jpg);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: black;
+  color: white;
+}
+
+.header {
+  background-color: lightgoldenrodyellow;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
+}
+
+.logo {
+  width: 140px;
+}
+
+.container a {
+  color: black;
+  margin-left: 25px;
+  font-weight: bold;
+}
+
+.container a:hover {
+  color: red;
+}
+
+.music-head {
+  display: grid;
+  grid-template-columns: repeat(3, 500px);
+  gap: 30px;
+  padding: 50px 40px;
+}
+
+.music {
+  background-color: black;
+  border-radius: 10px;
+  overflow: hidden;
+  text-align: center;
+}
+
+.music img {
+  width: 100%;
+  height: 280px;
+  object-fit: cover;
+}
+
+.music a {
+  display: block;
+  background-color: lightcoral;
+  padding: 14px;
+  color: white;
+  font-weight: bold;
+}
+
+.music a:hover {
+  background-color: black;
+}
+
+footer {
+  background-color: lightgoldenrodyellow;
+  display: flex;
+  padding: 15px 40px;
+  border-radius: 10px;
+  box-shadow: 4px 10px black;
+  margin-top: 2px;
+  font-weight: bold;
+  color: black;
+}
+a {
+  text-decoration: none;
+  color: black;
+  font: bold;
+}
+.foot {
+  display: flex;
+  justify-content: center;
+}
+
+.footmenu > a {
+  padding: 40px;
+}
