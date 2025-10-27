@@ -10,7 +10,7 @@ a {
 }
 
 body {
-  background-image: url(/assets/nan2.jpg);
+  background-image: url(../assets/nan2.jpg);
   background-size: cover;
   background-position: center;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
