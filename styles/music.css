@@ -5,7 +5,7 @@
   text-decoration: none;
 }
 body {
-  background-image: url(/assets/nan2.jpg);
+  background-image: url(../assets/nan2.jpg);
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   background-color: black;
   color: white;
