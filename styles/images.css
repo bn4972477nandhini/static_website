@@ -20,7 +20,8 @@ body {
 }
 
 .logo {
-  width: 140px;
+  /* width: 140px; */
+  border-radius: 20px;
 }
 
 .container a {

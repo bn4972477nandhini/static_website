@@ -16,9 +16,10 @@ body {
 }
 
 .logo {
-  width: 160px;
-  height: auto;
+  /* width: 160px;
+  height: auto; */
   cursor: pointer;
+  border-radius: 20px;
 }
 
 .container a {
